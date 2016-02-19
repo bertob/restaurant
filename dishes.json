@@ -1,0 +1,430 @@
+{
+	"starters": [{
+		"refNumber": 1,
+		"name": "Tomato basil soup",
+		"description": "Tomato Basil Soup is a weekly feature on our summer menu. Creamy, savory, and brimming with the rich flavor of freshly ripened tomatoes, we just can't get enough!",
+		"ingredients": [
+			"Butter",
+			"Onion",
+			"Tomatoes",
+			"Chicken broth",
+			"Salt",
+			"Balsamic vinegar",
+			"honey",
+			"Basil",
+			"Heavy cream",
+			"Sour cream"
+		],
+		"healthy": true,
+		"image": "img/starters/tomatosoup.png",
+		"price": 550,
+		"dishType": "Starter"
+	}, {
+		"refNumber": 5,
+		"name": "Gnocchi",
+		"description": "Typical Italian dumplings made from potatoes and flour with tomato and garlic sauce.",
+		"ingredients": [
+			"Russet potatoes",
+			"Flour",
+			"Eggs",
+			"Salt",
+			"Vegetable oil",
+			"Tomatoes",
+			"Garlic"
+		],
+		"healthy": true,
+		"image": "img/starters/chickenwings.png",
+		"price": 760,
+		"dishType": "Starter"
+	}, {
+		"refNumber": 3,
+		"name": "Spinach soup",
+		"description": "The lovely, leafy spinach in this recipe makes for a flavoursome and intriguing bright-green soup.",
+		"ingredients": [
+			"Butter",
+			"Onion",
+			"Potatoes",
+			"Chicken",
+			"Milk",
+			"Spinach",
+			"Lemon",
+			"Nutmeg",
+			"Cream"
+		],
+		"healthy": true,
+		"image": "img/starters/spinachsoup.png",
+		"price": 750,
+		"dishType": "Starter"
+	}, {
+		"refNumber": 4,
+		"name": "Mixed salad",
+		"description": "A yummy, healthy salad loaded with nuts, cheese and greens, also called 'The Good Salad'.",
+		"ingredients": [
+			"Cashew halves",
+			"Parmesan cheese",
+			"Kiwi",
+			"Green peas",
+			"Butter",
+			"Rosemary",
+			"Curry powder",
+			"Brown sugar",
+			"Kosher salt",
+			"Cayenne pepper",
+			"Vinegar",
+			"Dijon mustard",
+			"Honey",
+			"Olive oil",
+			"Black pepper",
+			"Mango",
+			"Lettuce"
+		],
+		"healthy": true,
+		"image": "img/starters/mixedsalad.png",
+		"price": 650,
+		"dishType": "Starter"
+	}, {
+		"refNumber": 6,
+		"name": "Courgette soup",
+		"description": "A satisfyingly delicious and smooth soup.",
+		"ingredients": [
+			"Margarine",
+			"Onion",
+			"Potatoes",
+			"Courgettes",
+			"Dried thyme",
+			"Dried rosemary",
+			"Dried basil",
+			"White pepper",
+			"Chicken stock",
+			"Full fat milk",
+			"Soy sauce",
+			"Dill"
+		],
+		"healthy": true,
+		"image": "img/starters/courgettesoup.png",
+		"price": 500,
+		"dishType": "Starter"
+	}],
+	"main": [{
+		"refNumber": 7,
+		"name": "Chicken thighs",
+		"description": "The chicken breast might get all the press, but it's the humble chicken thigh that really delivers in terms of flavor, versatility and economy.",
+		"ingredients": [
+			"Full-fat Greek yogurt",
+			"Lemon",
+			"Turmeric",
+			"Garam masala",
+			"Cumin",
+			"Chicken thighs",
+			"Butter",
+			"Vegetable oil",
+			"Onion",
+			"Garlic",
+			"Ginger",
+			"Cinnamon",
+			"Tomatoes",
+			"Red chiles",
+			"Tomato paste",
+			"Potatoes",
+			"Almonds",
+			"Cilantro leaves"
+		],
+		"healthy": false,
+		"image": "img/main/chickenthigh.png",
+		"price": 760,
+		"dishType": "Main"
+	}, {
+		"refNumber": 8,
+		"name": "Pappardelle",
+		"description": "A brown butter sauce complements toasted walnuts, roasted butternut squash, and baby kale in a rich pasta dish that perfectly captures the flavors of fall.",
+		"ingredients": [
+			"Pappardelle",
+			"Garlic",
+			"Butternut squash",
+			"Black pepper",
+			"Olive oil",
+			"Walnuts",
+			"Kosher salt"
+		],
+		"healthy": true,
+		"image": "img/main/pappardelle.png",
+		"price": 800,
+		"dishType": "Main"
+	}, {
+		"refNumber": 9,
+		"name": "Green curry soup",
+		"description": "Known as kdat in Cambodia, taro stem, which grows out of the fibrous taro root like celery grows out of celery root, is a crisp, watery vegetable often used in soups to add brightness and crunch.",
+		"ingredients": [
+			"Bacon",
+			"Cilantro",
+			"Shrimp paste",
+			"Lime leaves",
+			"Garlic",
+			"Shallot",
+			"Seerano chiles",
+			"White rice",
+			"Kosher salt",
+			"Fish sauce",
+			"Vegetabe oil",
+			"Chicken stock",
+			"Coconut milk",
+			"Mung beans"
+		],
+		"healthy": true,
+		"image": "img/main/greencurrysoup.png",
+		"price": 1100,
+		"dishType": "Main"
+	}, {
+		"refNumber": 10,
+		"name": "Puttanesca",
+		"description": "Our take on this dish, famously named for the fact that Italy's ladies of the evening quickly made it between clients.",
+		"ingredients": [
+			"Spaghetti",
+			"Garlic",
+			"Anchovy paste",
+			"Red pepper",
+			"Olive oil",
+			"Tomatoes",
+			"Kalamata olives",
+			"Capers",
+			"Sugar",
+			"Basil"
+		],
+		"healthy": true,
+		"image": "img/main/puttanesca.png",
+		"price": 1220,
+		"dishType": "Main"
+	}, {
+		"refNumber": 11,
+		"name": "Mini burgers",
+		"description": "Three tasty beef burgers with Couscous, vegetables and mozzarella cheese.",
+		"ingredients": [
+			"Aubergine",
+			"Black pepper",
+			"Mozzarella cheese",
+			"Couscous",
+			"Salt",
+			"Salad",
+			"Olive oil",
+			"Beef",
+			"Onion",
+			"Corn",
+			"Garlic"
+		],
+		"healthy": true,
+		"image": "img/main/burger.png",
+		"price": 1300,
+		"dishType": "Main"
+	}, {
+		"refNumber": 12,
+		"name": "Special pasta",
+		"description": "Amazingly tasty noodles that will make you feel in the seventh heaven.",
+		"ingredients": [
+			"Noodles",
+			"Walnuts",
+			"Parmesan cheese",
+			"Salt",
+			"Olive oil",
+			"Lettuce"
+		],
+		"healthy": true,
+		"image": "img/main/specialpasta.png",
+		"price": 1440,
+		"dishType": "Main"
+	}],
+	"dessert": [{
+		"refNumber": 13,
+		"name": "Chocolate roulade",
+		"description": "Milk chocolate coconut rolled crepe, coconut whip, buttered almonds, raspberry and chocolate sauces.",
+		"ingredients": [
+			"Chocolate",
+			"Almonds",
+			"Maple syrup",
+			"Flour",
+			"Milk",
+			"Eggs",
+			"Brown sugar",
+			"Butter",
+			"Nut cream"
+		],
+		"healthy": false,
+		"image": "img/dessert/chocolateroulade.png",
+		"price": 480,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 14,
+		"name": "Dessert trio",
+		"description": "Classic carrot cake with brown butter cream cheese frosting, lemon ginger bar, flourless chocolate torte with salted caramel and balsamic gastrique.",
+		"ingredients": [
+			"Carrots",
+			"Flour",
+			"Maple syrup",
+			"Milk",
+			"Eggs",
+			"Brown sugar",
+			"Butter",
+			"Nut cream",
+			"Salted caramel",
+			"Balsamic gastrique"
+		],
+		"healthy": false,
+		"image": "img/dessert/desserttrio.png",
+		"price": 520,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 15,
+		"name": "Lemon tart",
+		"description": "Refreshing and tasty dessert made from locally sourced lemons, with lots of love.",
+		"ingredients": [
+			"Sugar",
+			"Flour",
+			"Eggs",
+			"Lemon flavor",
+			"Walnuts"
+		],
+		"healthy": false,
+		"image": "img/dessert/lemontart.png",
+		"price": 480,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 16,
+		"name": "Orange salad",
+		"description": "Really fresh and healthy dessert.",
+		"ingredients": [
+			"Oranges"
+		],
+		"healthy": true,
+		"image": "img/dessert/oranges.png",
+		"price": 350,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 17,
+		"name": "Fruit salad",
+		"description": "Really freshy and tasty salad made of different tropical and juicy fruits.",
+		"ingredients": [
+			"Mangos",
+			"Kiwis",
+			"Grapes",
+			"Oranges"
+		],
+		"healthy": true,
+		"image": "img/dessert/mixeddessert.png",
+		"price": 650,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 18,
+		"name": "Jacques",
+		"description": "French dessert perfect to eat during summer after a good fish dish.",
+		"ingredients": [
+			"Sugar",
+			"Flour",
+			"Eggs",
+			"Salt",
+			"Soy oil",
+			"Almonds"
+		],
+		"healthy": false,
+		"image": "img/dessert/jacques.png",
+		"price": 530,
+		"dishType": "Dessert"
+	}, {
+		"refNumber": 19,
+		"name": "Peanut ice cream",
+		"description": "Really sweet American style peanut ice cream.",
+		"ingredients": [
+			"Milk",
+			"Peanuts",
+			"Chocolate syrup",
+			"Brown sugar",
+			"Refined sugar"
+		],
+		"healthy": false,
+		"image": "img/dessert/peanuticecream.png",
+		"price": 750,
+		"dishType": "Dessert"
+	}],
+	"drinks": [{
+		"refNumber": 20,
+		"name": "Beer",
+		"description": "Light color, full, and very impressive taste.",
+		"ingredients": [
+
+		],
+		"healthy": false,
+		"image": "img/drinks/beer.png",
+		"price": 250,
+		"dishType": "Drink"
+	}, {
+		"refNumber": 21,
+		"name": "Cola",
+		"description": "Refreshing carbonated soft drink.",
+		"ingredients": [
+
+		],
+		"healthy": false,
+		"image": "img/drinks/cola.png",
+		"price": 200,
+		"dishType": "Drink"
+	}, {
+		"refNumber": 22,
+		"name": "Red wine",
+		"description": "Full-bodied red wine made from a dark grape variety widely grown in its native Italy.",
+		"ingredients": [
+
+		],
+		"healthy": true,
+		"image": "img/drinks/redwine.png",
+		"price": 520,
+		"dishType": "Drink"
+	}, {
+		"refNumber": 23,
+		"name": "White wine",
+		"description": "White Spanish wine grape variety that is grown in the Rioja Denominacion de Origen.",
+		"ingredients": [
+
+		],
+		"healthy": true,
+		"image": "img/drinks/whitewine.png",
+		"price": 520,
+		"dishType": "Drink"
+	}, {
+		"refNumber": 24,
+		"name": "Water",
+		"description": "It's water bitch.",
+		"ingredients": [
+
+		],
+		"healthy": true,
+		"image": "img/drinks/water.png",
+		"price": 120,
+		"dishType": "Drink"
+	}],
+	"surprise": [{
+		"refNumber": 25,
+		"name": "surprise",
+		"description": "",
+		"ingredients": [],
+		"healthy": true,
+		"image": "img/surprise.png",
+		"price": 520,
+		"dishType": "Starter"
+	}, {
+		"refNumber": 26,
+		"name": "surprise",
+		"description": "",
+		"ingredients": [],
+		"healthy": true,
+		"image": "img/surprise.png",
+		"price": 520,
+		"dishType": "Main"
+	}, {
+		"refNumber": 27,
+		"name": "surprise",
+		"description": "",
+		"ingredients": [],
+		"healthy": true,
+		"image": "img/surprise.png",
+		"price": 520,
+		"dishType": "Dessert"
+	}]
+}

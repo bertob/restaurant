@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="lib/flickity.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="container" id="container">
+      <section class="table" id="table">
+        <header class="categories-container" id="categories-container">
+          <nav class="categories">
+            <button class="category-button active" id="category-0" data-category="0">Starters</button>
+            <button class="category-button" id="category-1" data-category="1">Main dishes</button>
+            <button class="category-button" id="category-2" data-category="2">Dessert</button>
+            <button class="category-button" id="category-3" data-category="3">Drinks</button>
+          </nav>
+        </header>
+        <section class="dishes-container" id="dishes-container">
+          <article class="dishes-group starters" id="dishes-1">
+
+            <figure class="dish dish-template">
+              <img class="image" src="">
+              <figcaption class="name"></figcaption>
+              <section class="modal">
+                <h2 class="title"></h2>
+                <label class="price"></label>
+                <label class="healthy">healthy</label>
+                <p class="description"></p>
+                <section class="ingredient-list">
+                  <h3>Ingredients</h3>
+                  <ul></ul>
+                </section>
+                <button class="close-button round-button small">Close</button>
+              </section>
+            </figure>
+            <button class="round-button more-button">More starters</button>
+          </article>
+          <article class="dishes-group main-dishes" id="dishes-2">
+            <button class="round-button more-button">More dishes</button>
+          </article>
+          <article class="dishes-group dessert" id="dishes-3">
+            <button class="round-button more-button">More desserts</button>
+          </article>
+          <article class="dishes-group drinks" id="dishes-4">
+            <button class="round-button more-button">More drinks</button>
+          </article>
+        </section>
+        <footer class="order-container">
+          <label class="order-label" id="order-label">Your order:</label>
+          <button class="round-button surprise-button" id="surprise-button">Surprise me!</button>
+          <div class="order-area" id="order-area">
+            <label class="order-help">Drag dishes here to order them</label>
+          </div>
+          <button class="round-button inactive" id="order-button">Order</button>
+        </footer>
+        <section class="move-container" id="move-container">
+
+          <figure class="dish small surprise" id="surprise-template" data-position="4" data-price="750">
+            <img class="image" src="img/cloche.png">
+            <figcaption class="name">Surprise</figcaption>
+            <section class="modal">
+              <h2 class="title">Surprise</h2>
+              <label class="price">7,50€</label>
+              <button class="close-button round-button small">Close</button>
+            </section>
+          </figure>
+
+        </section>
+      </section>
+      <section class="ordered" id="ordered">
+        <div class="text">
+          <h1>Your food is<br>on the way!</h1>
+          <p>You'll get your drinks in a few minutes and<br>the rest of your order in half an hour.</p>
+          <div class="">
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="lib/libs.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
