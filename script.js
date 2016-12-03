@@ -23,6 +23,7 @@ var centerOffsets = [
 $(document).ready(function() {
 	$.getJSON("dishes.json", function(data) {
 		renderDishes(data);
+		flkty.select(0);
 	});
 });
 
