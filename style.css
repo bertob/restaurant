@@ -376,13 +376,14 @@ button.outline {
 }
 .dish .ingredient-list h3 {
   font-size: 1em;
+  margin: 1.2em 0 0.4em;
 }
 .dish .ingredient-list li {
   list-style-type: none;
 }
 .dish .ingredient-list ul {
   padding-left: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .ingredient-columns {
   width: 530px;
